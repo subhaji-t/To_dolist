@@ -31,14 +31,14 @@ if ($conn->connect_error) {
                 <input type="text" 
                      name="title" 
                      style="border-color: #ff6666"
-                     placeholder="This field is required" />
-              <button type="submit">Add &nbsp; <span>&#43;</span></button>
+                     placeholder="This field is necessary" />
+              <button type="submit">Add &nbsp;</button>
 
              <?php }else{ ?>
               <input type="text" 
                      name="title" 
-                     placeholder="What do you need to do?" />
-              <button type="submit">Add &nbsp; <span>&#43;</span></button>
+                     placeholder="Enter Task" />
+              <button type="submit">Add &nbsp;</button>
              <?php } ?>
           </form>
        </div>
